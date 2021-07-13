@@ -1,4 +1,4 @@
-FROM circleci/node:latest
+FROM circleci/node:14.17.3
 USER circleci
 ENV USER circleci
 RUN sudo apt-get install bc
